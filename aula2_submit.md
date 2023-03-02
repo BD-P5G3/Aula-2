@@ -20,7 +20,7 @@ Identify the entities, attributes, and relationships of the database.
 Entidades:
 Empresa()
 Produto(*código*, preço, taxa de IVA, número de unidades em armazém)
-Encomenda(*número*, data, unidades)
+Encomenda(*número*, data)
 Fornecedor(*nome*, *número de identificação fiscal*, endereço, fax, condições de pagamento, código interno do tipo de fornecedor (composto por número e designação))
 
 * significa "Atributo chave"
