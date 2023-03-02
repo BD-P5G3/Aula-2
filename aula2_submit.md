@@ -28,7 +28,6 @@ Fornecedor(*nome*, *número de identificação fiscal*, endereço, fax, condiç�
 Relações:
 Empresa tem Produtos
 Produto compõe Encomendas (número de itens)
-Fornecedor fornece Produtos
 Encomenda tem Fornecedor
 ```
 
@@ -45,11 +44,6 @@ Relação Produto-Encomenda:
 Grau -> Binária
 Cardinalidade -> N:M
 Obrigatoriedade das entidades no relacionamento -> Produto(Forte) Encomenda(Fraca)
-
-Relação Fornecedor-Produto:
-Grau -> Binária
-Cardinalidade -> 1:N
-Obrigatoriedade das entidades no relacionamento -> Fornecedor(Forte) Produto(Fraco)
 
 Relação Encomenda-Fornecedor:
 Grau -> binária 
