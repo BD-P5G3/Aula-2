@@ -53,7 +53,7 @@ Obrigatoriedade das entidades no relacionamento -> Encomenda(Fraca) Fornecedor(F
 
 #### *c)* Desenvolva o desenho conceptual da base de dados com recurso a um diagrama entidade-relacionamento. Numa primeira fase, utilize lápis e papel para realizar o trabalho. Uma vez concluído o desenho em papel, transponha o diagrama para um formato eletrónico utilizando uma ferramenta gráfica como, por exemplo, o Microsoft Visio ou o Visual Paradigm.
 
-![ex_2_1!](ex_2_1.png "AnImage or PDF file")
+![ex_2_1!](ex_2_1.svg "AnImage or PDF file")
 
 ### Problema *2.2*
 
