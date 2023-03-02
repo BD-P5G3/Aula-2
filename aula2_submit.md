@@ -17,16 +17,44 @@ Considere um Sistema de Gestão de Stocks de uma empresa. O presente exercício 
 Identify the entities, attributes, and relationships of the database.
 
 ```
-... Write here your answer ...
+Entidades:
+Empresa()
+Produto(*código*, preço, taxa de IVA, número de unidades em armazém)
+Encomenda(*número*, data, unidades)
+Fornecedor(*nome*, *número de identificação fiscal*, endereço, fax, condições de pagamento, código interno do tipo de fornecedor (composto por número e designação))
 
+* significa "Atributo chave"
+
+Relações:
+Empresa tem Produtos
+Produto compõe Encomendas (número de itens)
+Fornecedor fornece Produtos
+Encomenda tem Fornecedor
 ```
 
 #### *b)* Caracterize as relações quanto ao grau, cardinalidade e obrigatoriedade de participação das instâncias das entidades no relacionamento.
 Specify the relationships regarding the degree, cardinality and instances mandatory participation of the entities in the relationship.
 
 ```
-... Write here your answer ...
+Relação Empresa-Produto: 
+Grau -> Binária
+Cardinalidade -> 1:N
+Obrigatoriedade das entidades no relacionamento -> Empresa(Fraca) Produto(Forte)
 
+Relação Produto-Encomenda:
+Grau -> Binária
+Cardinalidade -> N:M
+Obrigatoriedade das entidades no relacionamento -> Produto(Forte) Encomenda(Fraca)
+
+Relação Fornecedor-Produto:
+Grau -> Binária
+Cardinalidade -> 1:N
+Obrigatoriedade das entidades no relacionamento -> Fornecedor(Forte) Produto(Fraco)
+
+Relação Encomenda-Fornecedor:
+Grau -> binária 
+Cardinalidade -> N:M
+Obrigatoriedade das entidades no relacionamento -> Encomenda(Fraca) Fornecedor(Forte)
 ```
 
 #### *c)* Desenvolva o desenho conceptual da base de dados com recurso a um diagrama entidade-relacionamento. Numa primeira fase, utilize lápis e papel para realizar o trabalho. Uma vez concluído o desenho em papel, transponha o diagrama para um formato eletrónico utilizando uma ferramenta gráfica como, por exemplo, o Microsoft Visio ou o Visual Paradigm.
