@@ -87,7 +87,7 @@ Considere um Sistema de Gestão de Conferências com as seguintes característic
 
 #### *a)* Desenvolva o desenho conceptual da base de dados do Sistema de Gestão de Conferências com recurso a um diagrama entidade-relascionamento.
 
-![ex_2_3!](ex_2_3.png "AnImage or PDF file")
+![ex_2_3!](ex_2_3.svg "AnImage or PDF file")
 
 ### Problema 2.4
 
