@@ -102,7 +102,7 @@ Considere um Sistema de Gestão de um ATL com as seguintes características:
 
 #### *a)* Desenvolva o desenho conceptual da base de dados do Sistema de Informação da Universidade com recurso a um diagrama entidade-relacionamento.
 
-![ex_2_4a!](ex_2_4a.png "AnImage or PDF file")
+![ex_2_4a!](ex_2_4a.svg "AnImage or PDF file")
 
 ### *b)* [Opcional] Continue a modelar o problema de forma a registar os processos financeiros (mensalidades, atividades, pagamentos, desconto família, etc). Defina os requisitos livremente.
 
